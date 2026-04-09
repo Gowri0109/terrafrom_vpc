@@ -1,5 +1,5 @@
 variable "key_name" {
-    description = "ec2.pem"
+    description = "ec2"
     type = string
   
 }

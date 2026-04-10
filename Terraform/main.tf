@@ -26,4 +26,6 @@ module "ec2" {
 
   bastion_sg = module.security.bastion_sg
   private_sg = module.security.private_sg
+
+  key_name = var.key_name   
 }

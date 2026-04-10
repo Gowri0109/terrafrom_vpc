@@ -6,3 +6,5 @@ variable "private_subnet_id" {}
 
 variable "bastion_sg" {}
 variable "private_sg" {}
+
+variable "key_name" {}  

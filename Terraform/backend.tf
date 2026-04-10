@@ -1,9 +1,8 @@
 terraform {
   backend "s3" {
-    bucket         = "gowri-terraform-state"
-    key            = "vpc/terraform.tfstate"
-    region         = "ap-south-1"
-    dynamodb_table = "terraform-lock"
-    encrypt        = true
+    bucket  = "terraform-state-file"   
+    key     = "vpc/terraform.tfstate"
+    region  = "ap-south-1"
+    encrypt = true
   }
 }
